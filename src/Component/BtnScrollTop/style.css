@@ -1,0 +1,14 @@
+.btnToTop {
+    text-align: end;
+    color: #BCBCBC;
+    font-family: Avenir2;
+    cursor: pointer;
+    margin: 1vh auto;
+    width: 80%;
+}
+
+@media only screen and (max-width: 900px) {
+    .btnToTop {
+        text-align: center;
+    }
+}

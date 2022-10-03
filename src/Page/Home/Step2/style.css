@@ -1,0 +1,74 @@
+.step2 {
+    margin: 10vh 0;
+    height: max-content;
+}
+
+@media only screen and (max-width: 900px) {
+    .step2 {
+        margin: 8vh 0;
+    }
+}
+
+.title {
+    font-family: Avenir1;
+    color: red;
+    text-align: center;
+    font-size: 4vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .title {
+        font-size: 2vh;
+    }
+}
+
+.sousTitle {
+    font-family: Avenir2;
+    color: black;
+    text-align: center;
+    font-size: 5vh;
+}
+
+@media only screen and (max-width: 900px) {
+    .sousTitle {
+        font-size: 3vh;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.container {
+    width: 80%;
+    height: 50vh;
+    background-image: url('./Asset/img1.jpg');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        margin: 2vh auto;
+    }
+}
+
+.contentFlex {
+    font-family: Avenir2;
+    width: 50%;
+    padding: 5vh;
+    background: white;
+    margin: -15vh auto;
+    font-size: 4vh;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .contentFlex {
+        margin: -10vh auto;
+        width: 65%;
+        font-size: 2.5vh;
+        padding: 2vh;
+    }
+}

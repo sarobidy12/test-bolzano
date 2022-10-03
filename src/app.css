@@ -1,0 +1,21 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Avenir1";
+    src: url("./Fonts/Avenir-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir2";
+    src: url("./Fonts/Avenir-Book.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir3";
+    src: url("./Fonts/Avenir-Medium.ttf") format("truetype");
+}

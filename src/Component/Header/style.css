@@ -1,0 +1,85 @@
+.menuHeader {
+    font-family: Avenir2;
+    display: none;
+    float: right;
+    background: transparent;
+}
+
+.menuHeader ul {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    list-style-type: none;
+}
+
+.menuHeader ul li {
+    margin: 0;
+    padding: 2vh 3vh;
+    display: inline-block;
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    font-size: 2.5vh;
+}
+
+.menuHeader ul li:hover {
+    background-color: rgba(128, 128, 128, 0.685);
+    color: white;
+}
+
+.btnMobile {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnOpen {
+    width: 30px;
+    margin: 2vh;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .menuHeader {
+        width: 100%;
+    }
+
+    .menuHeader ul {
+        width: 100%;
+    }
+
+    .menuHeader ul li {
+        margin: 0;
+        padding: 2vh;
+        width: 100%;
+        text-align: center;
+        font-size: 2.5vh;
+        cursor: pointer;
+        display: block;
+        color: black;
+    }
+
+    .menuHeader ul li:hover {
+        background-color: rgba(128, 128, 128, 0.685);
+        color: white;
+    }
+}
+
+.header {
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .header {
+        width: 100%;
+    }
+
+    .btnMobile {
+        position: relative;
+    }
+}
