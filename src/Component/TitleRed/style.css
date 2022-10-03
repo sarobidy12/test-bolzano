@@ -1,0 +1,14 @@
+.TitleRed {
+    font-family: Avenir1;
+    color: red;
+    text-align: center;
+    font-size: 4vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .TitleRed {
+        font-size: 2vh;
+    }
+}

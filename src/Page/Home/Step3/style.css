@@ -9,20 +9,7 @@
     justify-content: center;
 }
 
-.titleh2 {
-    font-family: Avenir1;
-    color: red;
-    text-align: center;
-    font-size: 4vh;
-    margin: 0;
-    padding: 0;
-}
 
-@media only screen and (max-width: 900px) {
-    .titleh2 {
-        font-size: 2vh;
-    }
-}
 
 .containerRow {
     width: 80%;

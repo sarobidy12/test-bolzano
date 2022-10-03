@@ -1,4 +1,5 @@
 import Header from "../../../Component/Header";
+import down from './Asset/down.png';
 import "./style.css";
 
 const Step1 = () => {
@@ -22,7 +23,7 @@ const Step1 = () => {
             </div>
             <div className="btnDwm">
                 <a href="#down">
-                    Down
+                    <img src={down} alt='To down' className="iconDown" />
                 </a>
             </div>
         </>

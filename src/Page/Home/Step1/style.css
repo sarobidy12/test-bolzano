@@ -55,5 +55,12 @@ video {
 	display: flex;
 	justify-content: center;
 	margin: -8vh auto;
+	margin-bottom: 8vh;
 	z-index: 50;
 }
+
+.iconDown{
+	width:50px;
+	height: 50px;
+}
+

@@ -1,14 +1,21 @@
 .btnToTop {
-    text-align: end;
     color: #BCBCBC;
     font-family: Avenir2;
     cursor: pointer;
     margin: 1vh auto;
     width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 @media only screen and (max-width: 900px) {
     .btnToTop {
-        text-align: center;
+        justify-content: center;
     }
+}
+
+.iconUp {
+    width: 15px;
+    height: 20px;
 }

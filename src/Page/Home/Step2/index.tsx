@@ -1,11 +1,12 @@
+import TitleRed from '../../../Component/TitleRed';
 import './style.css';
 
 const Step2 = () => {
     return (
         <div className="step2" id="down">
-            <h3 className="title">
+            <TitleRed>
                 How we do it
-            </h3>
+            </TitleRed>
             <p className="sousTitle">
                 We use data-driven creativity to solve busness problems
             </p>

@@ -1,3 +1,4 @@
+import TitleRed from '../../../Component/TitleRed';
 import img from './Asset/pencil.gif';
 import Card from './Card';
 import "./style.css";
@@ -14,11 +15,9 @@ const Step3 = () => {
                     alt="Bissness problems we' ve solved"
                 />
 
-                <h2
-                    className="titleh2"
-                >
+                <TitleRed>
                     Bissness problems we've solved
-                </h2>
+                </TitleRed>
 
             </div>
 
@@ -31,7 +30,7 @@ const Step3 = () => {
                 <div className="containerCol">
                     <Card to="/" text="How close to an AFL Player can you get ?" />
                 </div>
-                
+
             </div>
 
             <div className='viewOur'>

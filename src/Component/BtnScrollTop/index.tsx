@@ -1,4 +1,5 @@
 import './style.css';
+import up from './Asset/up.png';
 
 const BtnScrollTop = () => {
 
@@ -14,6 +15,7 @@ const BtnScrollTop = () => {
             className='btnToTop'
             onClick={scrollToTop}
         >
+            <img src={up} className="iconUp" alt='iconUp' />
             Return to top
         </div>
     );
